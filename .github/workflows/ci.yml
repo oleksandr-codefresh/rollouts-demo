@@ -38,8 +38,11 @@ jobs:
           # CF_RUNTIME_NAME: 'codefresh-hosted'
           CF_RUNTIME_NAME: 'sandbox2'
 
-          CF_PLATFORM_URL: https://sandbox-2.codefresh.io
-          CF_API_KEY: ${{secrets.CF_API_KEY_SANDBOX_2}}
+          CF_PLATFORM_URL: http://alexs-platform.ngrok.io
+          CF_API_KEY: ${{secrets.CF_API_KEY_LOCAL}}
+
+          # CF_PLATFORM_URL: https://sandbox-2.codefresh.io
+          # CF_API_KEY: ${{secrets.CF_API_KEY_SANDBOX_2}}
           
           # CF_PLATFORM_URL: https://app-staging.codefresh.io
           # CF_API_KEY: ${{secrets.CF_API_KEY_STAGING}}
