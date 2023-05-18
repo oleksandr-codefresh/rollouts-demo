@@ -36,7 +36,8 @@ jobs:
         with:
           # Runtime to use for the enrichment.
           # CF_RUNTIME_NAME: 'codefresh-hosted'
-          CF_RUNTIME_NAME: 'sandbox2'
+          # CF_RUNTIME_NAME: 'sandbox2'
+          CF_RUNTIME_NAME: 'eks-local' #local
 
           CF_PLATFORM_URL: http://alexs-platform.ngrok.io
           CF_API_KEY: ${{secrets.CF_API_KEY_LOCAL}}
