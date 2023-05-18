@@ -34,7 +34,7 @@ jobs:
     
       - name: report image
         with:
-          # Runtime to use for the enrichment.
+          # Runtime to use for the enrichment. //
           # CF_RUNTIME_NAME: 'codefresh-hosted'
           # CF_RUNTIME_NAME: 'sandbox2'
           CF_RUNTIME_NAME: 'eks-local' #local
