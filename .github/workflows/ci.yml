@@ -72,7 +72,7 @@ jobs:
       - name: Checkout csdp-salesdemo_applications
         uses: actions/checkout@v3
         with:
-          repository: alina-codefresh/rollouts-demo # change to real repo
+          repository: oleksandr-codefresh/rollouts-demo # change to real repo
           path: .
       - name: Update application version
         run: |
